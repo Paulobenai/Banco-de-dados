@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net" modified="2023-08-25T16:32:06.483Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0" etag="TxaOhJK9Xhlfcwlluava" version="21.6.9" type="github">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1IHhobHawlPW_kMoUsww-4" value="&lt;h2&gt;Escola&lt;br&gt;&lt;/h2&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="40" width="110" height="120" as="geometry">
+            <mxRectangle x="10" y="40" width="110" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-18" value="Turma" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-31" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1IHhobHawlPW_kMoUsww-18" target="1IHhobHawlPW_kMoUsww-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="158" as="sourcePoint" />
+            <mxPoint x="545" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-33" value="" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="1IHhobHawlPW_kMoUsww-31">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint y="-110" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-34" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1IHhobHawlPW_kMoUsww-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-36" value="Ter" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-39" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1IHhobHawlPW_kMoUsww-4" target="1IHhobHawlPW_kMoUsww-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="90" as="sourcePoint" />
+            <mxPoint x="250" y="90" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1IHhobHawlPW_kMoUsww-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-10" value="&lt;h2&gt;Ter&lt;br&gt;&lt;/h2&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-44" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="58" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-45" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="58" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-48" value="Sala" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="80" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-52" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="368" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-77" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="399" as="targetPoint" />
+            <mxPoint x="720" y="329" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-55" value="Ministra" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-79" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1IHhobHawlPW_kMoUsww-58" target="1IHhobHawlPW_kMoUsww-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-58" value="Professores" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-65" value="Aula" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="680" y="400" width="80" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-75" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="546" y="80" as="sourcePoint" />
+            <mxPoint x="676" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="596" y="80" />
+              <mxPoint x="596" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-82" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="695" y="158" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1IHhobHawlPW_kMoUsww-83" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="695" y="368" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
